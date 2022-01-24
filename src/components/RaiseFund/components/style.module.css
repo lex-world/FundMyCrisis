@@ -1,0 +1,35 @@
+.halfContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.label{
+    margin: 10px 0;
+}
+
+.halfText{
+    margin-right: 20px;
+    width: 48%;
+}
+
+.fullText{
+    width: 100%;
+    margin-bottom: 15px!important;
+}
+
+.description{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.nextBtn{
+    width: 100%;
+    background: #2ecc71!important;
+    padding: 12px 0!important;
+    color: #fff!important;
+    margin: 20px 0!important;
+}
+
+/* .nextBtn:hover{
+    background: #2ecc71;
+} */

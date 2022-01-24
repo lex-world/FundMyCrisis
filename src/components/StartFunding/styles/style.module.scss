@@ -1,0 +1,24 @@
+.startfundRaise {
+  margin-top: 70px;
+
+  .item {
+    border-radius: 5px;
+    padding: 15px 20px;
+    border: 1px solid #dedede;
+    margin-top: 15px;
+    font-size: 17px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #4a4a4a;
+
+    span {
+      margin-right: 10px;
+    }
+
+    &:hover {
+      border: 1px solid #2ecc71;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.raiseIndividualFund {
+  margin-top: 30px;
+  width: 40vw; }
+  .raiseIndividualFund h1 {
+    text-align: center;
+    margin-bottom: 20px; }
+  .raiseIndividualFund .stepper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; }
+    .raiseIndividualFund .stepper .stepperItem {
+      background: #cecece;
+      width: 70px;
+      height: 5px;
+      margin-right: 10px; }
+
+/*# sourceMappingURL=style.module.css.map */

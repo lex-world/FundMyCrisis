@@ -4,7 +4,7 @@ import App from "./App";
 import { MoralisProvider } from "react-moralis";
 import "./index.css";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
-import QuickStart from "components/QuickStart";
+import QuickStart from "components/Quickstart/QuickStart";
 
 /** Get your free Moralis Account https://moralis.io/ */
 
