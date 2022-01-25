@@ -1,9 +1,13 @@
 import React from "react";
 import { Button, TextField } from "@mui/material";
 
-import styles from './style.module.css'
+import styles from "./style.module.css";
 
-export default function StepOne() {
+export default function StepOne({ setCount }) {
+  const handleClick = () => {
+    setCount(2);
+  };
+
   return (
     <div>
       <div className={styles.label}>What's your name?</div>
@@ -50,7 +54,9 @@ export default function StepOne() {
         />
       </div>
 
-      <Button className={styles.nextBtn}>Next</Button>
+      <Button onClick={handleClick} className={styles.nextBtn}>
+        Next
+      </Button>
 
       <p style={{ textAlign: "center" }}>
         By continuing, you agree to the FundMyCrisis terms and privacy policy.

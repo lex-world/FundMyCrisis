@@ -1,0 +1,21 @@
+.stepTwo__container{
+    .title{
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 16px;
+        color: #5a5a5a;
+    }
+
+    .nextBtn{
+        background: #2ecc71;
+        width: 100%;
+        margin: 0 8px;
+        padding: 13px 0;
+        margin-top: 20px;
+        color: #fff;
+
+        &:hover{
+            background: #2ecc71;
+        }
+    }
+}

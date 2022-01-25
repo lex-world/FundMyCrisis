@@ -12,10 +12,10 @@ import Chains from "components/Chains";
 // import TokenPrice from "components/TokenPrice";
 import ERC20Balance from "components/ERC20Balance";
 import ERC20Transfers from "components/ERC20Transfers";
-import DEX from "components/DEX";
+// import DEX from "components/DEX";
 import NFTBalance from "components/NFTBalance";
-import Wallet from "components/Wallet";
-import { Layout, Tabs } from "antd";
+// import Wallet from "components/Wallet";
+import { Layout } from "antd";
 import "antd/dist/antd.css";
 import NativeBalance from "components/NativeBalance";
 import "./style.css";
@@ -58,6 +58,9 @@ const styles = {
     fontSize: "15px",
     fontWeight: "600",
   },
+  link: {
+    color: "#000",
+  }
 };
 const App = ({ isServerInfo }) => {
   const { isWeb3Enabled, enableWeb3, isAuthenticated, isWeb3EnableLoading } =
@@ -74,7 +77,7 @@ const App = ({ isServerInfo }) => {
     <Layout style={{ height: "100vh", overflow: "auto" }}>
       <Router>
         <Header style={styles.header}>
-          <h2><Link to="/">FundMyCrisis</Link></h2>
+          <h2><Link to="/" style={styles.link}>FundMyCrisis</Link></h2>
           <MenuItems />
           <div style={styles.headerRight}>
             <Chains />
